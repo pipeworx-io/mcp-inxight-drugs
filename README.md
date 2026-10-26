@@ -4,7 +4,7 @@ Drug development status by indication from NCATS Inxight Drugs: for any drug or
 substance, the conditions it is approved for or in trials for, the highest phase
 reached per condition, its approval history, originator and targets.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1764+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1881+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -114,7 +114,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1764+ data sources. The
+Both URLs reach the same gateway and the same 1881+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/inxight-drugs",
   "title": "Inxight Drugs",
   "description": "Inxight Drugs — NCATS drug development status by indication.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/inxight-drugs",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-inxight-drugs",
