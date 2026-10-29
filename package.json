@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-inxight-drugs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Inxight Drugs — NCATS drug development status by indication.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-inxight-drugs": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "inxight-drugs"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-inxight-drugs.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/inxight-drugs",
   "pipeworx": {
-    "sourceHash": "v1-b4583804cb7b374762b813f19a07de97fb2b0f249e9800d3fcf9df71a0813221",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "inxight-drugs",
+    "gatewaySlug": "inxight-drugs",
+    "sourceHash": "v1-4e56923997196a00c0748816fe735fb75679fe7cb94b0da99d21499d55dd62c4",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
