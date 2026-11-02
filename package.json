@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-inxight-drugs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Inxight Drugs — NCATS drug development status by indication.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "inxight-drugs",
     "gatewaySlug": "inxight-drugs",
-    "sourceHash": "v1-4e56923997196a00c0748816fe735fb75679fe7cb94b0da99d21499d55dd62c4",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-08972e4e50e09a422dcd85d4cc01da37e4baeb71fb528b8ada9fa55dd5338be8",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
